@@ -1,0 +1,33 @@
+Who does this benefit?
+Internally
+Externally
+
+Goals:
+Comprehensive ??
+Succinct ??
+Both???
+
+Analysis of presentations
+
+Analysis of content
+
+Inspiration:
+http://ux.mailchimp.com/patterns
+https://github.com/alistapart/pattern-library
+http://style.codeforamerica.org/
+http://uxmovement.com/resources/4-best-design-pattern-libraries/
+http://www.slideshare.net/WolfBruening/how-to-build-the-perfect-pattern-libraryy
+
+
+Tips:
+http://alistapart.com/blog/post/getting-started-with-pattern-libraries
+http://patternlab.io/resources.html
+
+
+Resources:
+https://24ways.org/2011/front-end-style-guides
+
+
+Errata:
+https://stuffandnonsense.co.uk/blog/about/an-extract-from-designing-atoms-and-elements
+https://www.smashingmagazine.com/2008/05/improving-code-readability-with-css-styleguides/

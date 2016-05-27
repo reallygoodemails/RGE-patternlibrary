@@ -26,6 +26,7 @@ http://patternlab.io/resources.html
 
 Resources:
 https://24ways.org/2011/front-end-style-guides
+http://ux.mailchimp.com/patterns/about
 
 
 Errata:

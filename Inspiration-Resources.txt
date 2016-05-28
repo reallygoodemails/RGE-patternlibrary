@@ -1,15 +1,10 @@
-Who does this benefit?
-Internally
-Externally
+Why make a pattern library?
+A useful resource to help guide external designers/coders
+A necessary resource for internal design/coding
+Increase value of site to design community and thereby drive extra traffic
 
-Goals:
-Comprehensive ??
-Succinct ??
-Both???
-
-Analysis of presentations
-
-Analysis of content
+What should some guidelines / goals be for a pattern library?
+It needs to be comprehensive without being overhwhelming. I imagine this means not all variants of a pattern need to be shown. This also implies a new visitor be able to confidently sort through the library. I think it needs to serve both those looking for inpsiration and those wanting to learn what a pattern library is.
 
 Inspiration:
 http://ux.mailchimp.com/patterns
@@ -17,6 +12,10 @@ https://github.com/alistapart/pattern-library
 http://style.codeforamerica.org/
 http://uxmovement.com/resources/4-best-design-pattern-libraries/
 http://www.slideshare.net/WolfBruening/how-to-build-the-perfect-pattern-libraryy
+
+What probably would work for us on mailchimp:
+
+What probably wouldn't work for us on mailchimp:
 
 
 Tips:

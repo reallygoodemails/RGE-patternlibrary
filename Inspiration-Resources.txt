@@ -1,4 +1,4 @@
-Why make a pattern library
+Why make a pattern library?
 // A useful resource to help guide external designers/coders
 // A necessary resource for internal design/coding
 // Increase value of site to design community and thereby drive extra traffic

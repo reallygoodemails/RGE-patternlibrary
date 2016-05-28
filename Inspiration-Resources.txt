@@ -1,33 +1,50 @@
-Why make a pattern library?
-A useful resource to help guide external designers/coders
-A necessary resource for internal design/coding
-Increase value of site to design community and thereby drive extra traffic
+Why make a pattern library
+// A useful resource to help guide external designers/coders
+// A necessary resource for internal design/coding
+// Increase value of site to design community and thereby drive extra traffic
 
 What should some guidelines / goals be for a pattern library?
-It needs to be comprehensive without being overhwhelming. I imagine this means not all variants of a pattern need to be shown. This also implies a new visitor be able to confidently sort through the library. I think it needs to serve both those looking for inpsiration and those wanting to learn what a pattern library is.
+// It needs to be comprehensive without being overwhelming. I imagine this means not all variants of a pattern need to be shown. This also implies a new visitor be able to confidently sort through the library. I think it needs to serve both those looking for inpsiration and those wanting to learn what a pattern library is.
 
-Inspiration:
+Inspiration - 
 http://ux.mailchimp.com/patterns
 https://github.com/alistapart/pattern-library
 http://style.codeforamerica.org/
 http://uxmovement.com/resources/4-best-design-pattern-libraries/
 http://www.slideshare.net/WolfBruening/how-to-build-the-perfect-pattern-libraryy
 
-What probably would work for us on mailchimp:
 
-What probably wouldn't work for us on mailchimp:
+Mailchimp library analysis -
+What probably would work for us on mailchimp -
+//
+//
+//
+What probably wouldn't work for us on mailchimp -
+//
+//
+//
+
+A List Apart library analysis -
+What probably would work for us on A List Apart -
+//
+//
+//
+What probably wouldn't work for us on A List Apart -
+//
+//
+//
 
 
-Tips:
+Tips - 
 http://alistapart.com/blog/post/getting-started-with-pattern-libraries
 http://patternlab.io/resources.html
 
 
-Resources:
+Resources - 
 https://24ways.org/2011/front-end-style-guides
 http://ux.mailchimp.com/patterns/about
 
 
-Errata:
+Errata -
 https://stuffandnonsense.co.uk/blog/about/an-extract-from-designing-atoms-and-elements
 https://www.smashingmagazine.com/2008/05/improving-code-readability-with-css-styleguides/

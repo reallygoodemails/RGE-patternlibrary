@@ -13,16 +13,22 @@ http://style.codeforamerica.org/
 http://uxmovement.com/resources/4-best-design-pattern-libraries/
 http://www.slideshare.net/WolfBruening/how-to-build-the-perfect-pattern-libraryy
 
+Random General Thoughts - 
+// Since Chop Chop is doing the coding (correct?) we will probably have to pick their brains a bit to produce notes similar to what MailChimp has. Ex note - "When using the grid, wrap the columns using a line and use lastUnit for the last column. Refer to OOCSS base classes to learn more about the grid classes."
+// How is Chop Chop coding this CSS wise?
+
 
 Mailchimp library analysis -
 What probably would work for us on mailchimp -
-//
-//
-//
+// The organization of elements is logically separated. The grid system is the best place to start things off.
+// The color used to show grid gutter and padding is an excellent idea that is easily understood.
+// 
 What probably wouldn't work for us on mailchimp -
 //
 //
 //
+Random thoughts - 
+// I REALLY wish the nav system followed as you scroll, much better UX that way, in my opinion
 
 A List Apart library analysis -
 What probably would work for us on A List Apart -

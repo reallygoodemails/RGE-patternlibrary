@@ -6,12 +6,15 @@ Why make a pattern library?
 What should some guidelines / goals be for a pattern library?
 // It needs to be comprehensive without being overwhelming. I imagine this means not all variants of a pattern need to be shown. This also implies a new visitor be able to confidently sort through the library. I think it needs to serve both those looking for inpsiration and those wanting to learn what a pattern library is.
 
-Inspiration - 
+Inspirational pattern libraries - 
 http://ux.mailchimp.com/patterns
 https://github.com/alistapart/pattern-library
 http://style.codeforamerica.org/
 http://uxmovement.com/resources/4-best-design-pattern-libraries/
 http://www.slideshare.net/WolfBruening/how-to-build-the-perfect-pattern-libraryy
+
+Good reading to keep in mind -
+https://medium.com/ge-design/ges-predix-design-system-8236d47b0891#.9irmxq2cd
 
 Random General Thoughts - 
 // Since Chop Chop is doing the coding (correct?) we will probably have to pick their brains a bit to produce notes similar to what MailChimp has. Ex note - "When using the grid, wrap the columns using a line and use lastUnit for the last column. Refer to OOCSS base classes to learn more about the grid classes."

@@ -7,7 +7,7 @@ Why make a pattern library?
 What should some guidelines / goals be for a pattern library?
 // It needs to be comprehensive without being overwhelming. Realistically this means a new visitor be able to confidently sort through the library. This confidence will promote exploration. I think the library needs to serve both those looking for inpsiration and those wanting to learn what a pattern library is.
 
-++ SECTION 2
++ SECTION 2
 Inspirational pattern libraries - 
 http://ux.mailchimp.com/patterns
 https://github.com/alistapart/pattern-library

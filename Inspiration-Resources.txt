@@ -19,8 +19,7 @@ http://www.slideshare.net/WolfBruening/how-to-build-the-perfect-pattern-libraryy
 https://medium.com/ge-design/ges-predix-design-system-8236d47b0891#.9irmxq2cd
 
 ++ Random General Thoughts - 
-// Since Chop Chop is doing the coding (correct?) we will probably have to pick their brains a bit to produce notes similar to what MailChimp has. Ex note - "When using the grid, wrap the columns using a line and use lastUnit for the last column. Refer to OOCSS base classes to learn more about the grid classes."
-// How is Chop Chop coding this CSS wise?
+// We are having our site coded by Chop Chop who is using the isotope javascript plugin to arrange emails in the email lists.
 
 ++ Mailchimp library analysis -
 What probably would work for us on mailchimp -

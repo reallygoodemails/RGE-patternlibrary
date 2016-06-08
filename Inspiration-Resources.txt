@@ -1,3 +1,4 @@
++ SECTION 1
 Why make a pattern library?
 // A useful resource to help guide external designers/coders
 // A necessary resource for internal design/coding
@@ -6,6 +7,7 @@ Why make a pattern library?
 What should some guidelines / goals be for a pattern library?
 // It needs to be comprehensive without being overwhelming. Realistically this means a new visitor be able to confidently sort through the library. This confidence will promote exploration. I think the library needs to serve both those looking for inpsiration and those wanting to learn what a pattern library is.
 
+++ SECTION 2
 Inspirational pattern libraries - 
 http://ux.mailchimp.com/patterns
 https://github.com/alistapart/pattern-library
@@ -13,27 +15,26 @@ http://style.codeforamerica.org/
 http://uxmovement.com/resources/4-best-design-pattern-libraries/
 http://www.slideshare.net/WolfBruening/how-to-build-the-perfect-pattern-libraryy
 
-Good reading to keep in mind -
+++ Good reading to keep in mind -
 https://medium.com/ge-design/ges-predix-design-system-8236d47b0891#.9irmxq2cd
 
-Random General Thoughts - 
+++ Random General Thoughts - 
 // Since Chop Chop is doing the coding (correct?) we will probably have to pick their brains a bit to produce notes similar to what MailChimp has. Ex note - "When using the grid, wrap the columns using a line and use lastUnit for the last column. Refer to OOCSS base classes to learn more about the grid classes."
 // How is Chop Chop coding this CSS wise?
 
-
-Mailchimp library analysis -
+++ Mailchimp library analysis -
 What probably would work for us on mailchimp -
 // The organization of elements is logically separated. The grid system is the best place to start things off.
 // The color used to show grid gutter and padding is an excellent idea that is easily understood.
 // 
 What probably wouldn't work for us on mailchimp -
-//
-//
+// Mailchimp uses floats for a lot of stuff. We are using javascript and so that will impact our library
+// [as our site takes shapes I'll put more in here]
 //
 Random thoughts - 
 // I REALLY wish the nav system followed as you scroll, much better UX that way, in my opinion
 
-A List Apart library analysis -
+++ A List Apart library analysis -
 What probably would work for us on A List Apart -
 //
 //
@@ -43,17 +44,17 @@ What probably wouldn't work for us on A List Apart -
 //
 //
 
-
++ SECTION 3
 Tips - 
 http://alistapart.com/blog/post/getting-started-with-pattern-libraries
 http://patternlab.io/resources.html
 
-
++ SECTION 4
 Resources - 
 https://24ways.org/2011/front-end-style-guides
 http://ux.mailchimp.com/patterns/about
 
-
++ SECTION 5
 Errata -
 https://stuffandnonsense.co.uk/blog/about/an-extract-from-designing-atoms-and-elements
 https://www.smashingmagazine.com/2008/05/improving-code-readability-with-css-styleguides/

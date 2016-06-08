@@ -29,17 +29,25 @@ What probably would work for us on mailchimp -
 What probably wouldn't work for us on mailchimp -
 // Mailchimp uses floats for a lot of stuff. We are using javascript and so that will impact our library
 // [as our site takes shapes I'll put more in here]
-//
-Random thoughts - 
 // I REALLY wish the nav system followed as you scroll, much better UX that way, in my opinion
+Random thoughts - 
+// This is a really well done pattern library
 
-++ A List Apart library analysis -
-What probably would work for us on A List Apart -
+++ A List Apart library analysis
+What probably would work for us on A List Apart
+// I'll be honest, I don't have much good to say. Kudos for making a pattern library I guess.
 //
 //
+What probably wouldn't work for us on A List Apart
+// I do not like that ALA's library requires you to click an ambigious icon to show code. Very unintuitive.
+// I'm really struggling to be positive about this one. It's not well structured, it's busy. Just not feeling it.
+// 
+
+++ Code For America library analysis
+What probably would work for us on Code For America
 //
-What probably wouldn't work for us on A List Apart -
 //
+What probably wouldn't work for us on Code For America
 //
 //
 

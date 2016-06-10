@@ -7,6 +7,7 @@ Why make a pattern library?
 What should some guidelines / goals be for a pattern library?
 // It needs to be comprehensive without being overwhelming. Realistically this means a new visitor be able to confidently sort through the library. This confidence will promote exploration. I think the library needs to serve both those looking for inpsiration and those wanting to learn what a pattern library is.
 
+
 + SECTION 2
 Inspirational pattern libraries - 
 http://ux.mailchimp.com/patterns
@@ -21,7 +22,8 @@ https://medium.com/ge-design/ges-predix-design-system-8236d47b0891#.9irmxq2cd
 ++ Random General Thoughts - 
 // We are having our site coded by Chop Chop who is using the isotope javascript plugin to arrange emails in the email lists.
 
-++ Mailchimp library analysis -
+
+1. Mailchimp library analysis -
 What probably would work for us on mailchimp -
 // The organization of elements is logically separated. The grid system is the best place to start things off.
 // The color used to show grid gutter and padding is an excellent idea that is easily understood.
@@ -33,7 +35,8 @@ What probably wouldn't work for us on mailchimp -
 Random thoughts - 
 // This is a really well done pattern library
 
-++ A List Apart library analysis
+
+2. A List Apart library analysis
 What probably would work for us on A List Apart
 // I'll be honest, I don't have much good to say. Kudos for making a pattern library I guess.
 //
@@ -43,7 +46,8 @@ What probably wouldn't work for us on A List Apart
 // I'm really struggling to be positive about this one. It's not well structured, it's busy. Just not feeling it.
 // 
 
-++ Code For America library analysis
+
+3. Code For America library analysis
 What probably would work for us on Code For America
 //
 //
@@ -51,15 +55,18 @@ What probably wouldn't work for us on Code For America
 //
 //
 
+
 + SECTION 3
 Tips - 
 http://alistapart.com/blog/post/getting-started-with-pattern-libraries
 http://patternlab.io/resources.html
 
+
 + SECTION 4
 Resources - 
 https://24ways.org/2011/front-end-style-guides
 http://ux.mailchimp.com/patterns/about
+
 
 + SECTION 5
 Errata -

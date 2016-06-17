@@ -1,3 +1,64 @@
+
 body{font-family:sans-serif}
 
-h1,h2{font-family: 'Roboto', sans-serif;color:#FE4742;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif; color: #555555;}
+
+h3 {
+	margin: .625em 0 .375em;
+	font-weight: 700;
+    font-size: 1.25em;
+    line-height: 1.2;
+}
+
+h2 {
+	margin: .75em 0 .375em;
+	font-weight: 700;
+    font-size: 1.75em;
+    line-height: 1.2;
+}
+
+.headers-PatternLibrary{color:#FE4742;}
+
+.f-menu-active .f-menu {
+    transform: translate(0, 0);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+.f-menu {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+.f-container {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+p, body {
+    font-family: 'Roboto';
+    margin: 0;
+    line-height: 150%;
+}
+
+.text-White {
+	color: #FFFFFF;
+}
+
+.row-Red {
+	height: auto;
+	margin: 1rem 0;
+	padding: 1rem;
+	background-color: #FE4742;
+	display: block;
+}
+
+.f-color-chip {
+    margin-bottom: 0em;
+}

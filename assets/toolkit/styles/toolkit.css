@@ -19,6 +19,8 @@ h2 {
 
 .headers-PatternLibrary{color:#FE4742;}
 
+.title-PatternLibrary{color:#FE4742;margin:0;padding:0;}
+
 .f-menu-active .f-menu {
     transform: translate(0, 0);
     -webkit-transition: all .35s;
@@ -61,4 +63,42 @@ p, body {
 
 .f-color-chip {
     margin-bottom: 0em;
+}
+
+.f-control-bar {
+	height: auto;
+	background-color: #FFFFFF;
+/*	width: 100%;
+	position: fixed;*/
+}
+
+.f-control-bar-alt {
+	padding: 1rem 0 1rem 1rem;
+	height: auto;
+}
+
+.f-control{
+    height: 4rem;
+    width: 4rem;
+}
+
+.f-menu-notoggle {
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.f-menu-toggle svg {
+    display: block;
+    float: left;
+    margin-bottom: -1px;
+    height: inherit;
+    width: inherit;
+}
+
+.f-menu-notoggle svg {
+	display: block;
+    float: left;
+    margin-bottom: -1px;
+    height: inherit;
+    width: inherit;
 }

@@ -1,7 +1,7 @@
 
 body{font-family:sans-serif}
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif; color: #555555;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif; color: #555555; line-height: 100%;}
 
 h3 {
 	margin: .625em 0 .375em;
@@ -15,6 +15,11 @@ h2 {
 	font-weight: 700;
     font-size: 1.75em;
     line-height: 1.2;
+}
+
+a {
+	text-decoration: none;
+	color:#FE4742;
 }
 
 .headers-PatternLibrary{color:#FE4742;}
@@ -101,4 +106,9 @@ p, body {
     margin-bottom: -1px;
     height: inherit;
     width: inherit;
+}
+
+.icon-Menu {
+	height: 2rem;
+	width: 2rem;
 }

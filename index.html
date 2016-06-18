@@ -81,7 +81,39 @@
 			<ul>
 		
 				<li>
-					<a href="index.html" class="f-menu__heading">Overview</a>
+					<a href="index.html" class="f-menu__heading">About</a>
+					<ul>
+						<li>
+							<a href="index.html#about-Tips">Tips</a>
+						</li>
+					</ul>
+				</li>
+
+				<li>
+					<a href="colors.html" class="f-menu__heading">Colors</a>
+					<ul>
+						<li>
+							<a href="colors.html#color-Elements">Elements</a>
+						</li>
+						<li>
+							<a href="colors.html#color-Icons">Text &amp; Icons</a>
+						</li>
+						<li>
+							<a href="colors.html#color-TextLinks">Text Links</a>
+						</li>
+						<li>
+							<a href="colors.html#color-TextButtons">Text Buttons</a>
+						</li>
+					</ul>
+				</li>
+				
+				<li>
+					<a href="typography.html" class="f-menu__heading">Typography</a>
+					<ul>
+						<li>
+							<a href="pages/home.html" target="_blank">Home</a>
+						</li>
+					</ul>
 				</li>
 		
 				<li>
@@ -126,15 +158,6 @@
 				</li>
 		
 				<li>
-					<a href="pages.html" class="f-menu__heading">Pages</a>
-					<ul>
-						<li>
-							<a href="pages/home.html" target="_blank">Home</a>
-						</li>
-					</ul>
-				</li>
-		
-				<li>
 					<a href="docs.html" class="f-menu__heading">Docs</a>
 					<ul>
 						<li>
@@ -159,82 +182,47 @@
 
 	
 <h1 class="headers-PatternLibrary">About this Pattern Library</h1>
+<div class="row-RedOutline">
+<p class="text-RGERed">With the advent of Really Good Emails v.2 we wanted to be like the cool kids and all the cool kids have their own pattern library. Really, that's about it. We could ramble on about maintainability, scalability, design best practices, atomic design, efficiency, lexicons, our own personal journeys, grandma's cooking, and the meaning of life (42). Still with us? Great! Man you're good. Ok now it's just getting awkward.</p></div>
 
-<p>With the advent of Really Good Emails v.2 we wanted to be like the cool kids and all the cool kids have their own pattern library. Really, that's about it. We could ramble on about maintainability, scalability, design best practices, atomic design, efficiency, lexicons, our own personal journeys, grandma's cooking, and the meaning of life (42). But if you wanted that in depth of a discussion you are going to have to look <a href="http://ux.mailchimp.com/patterns/about">elsewhere</a>.</p>
+<h3 class="headers-PatternLibrary" id="about-Tips">Tips</h3>
 
-<h2 class="headers-PatternLibrary">Usage</h2>
+<p>[talk about three icons to hide comments, title, code]</p>
 
-<p>Start by adding the following files to your page:</p>
+<div class="f-item-group" id="checkbox">
 
-<pre class="language-markup"><code class="language-markup">&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/toolkit/styles/toolkit.css&quot;&gt;</code></pre>
-
-<pre class="language-markup"><code class="language-markup">&lt;script src=&quot;assets/toolkit/scripts/toolkit.js&quot;&gt;&lt;/script&gt;</code></pre>
-
-
-<h2 class="headers-PatternLibrary">Colors</h2>
-
-<h3>Elements</h3>
-	<div class="f-color-chips">
-		<div class="f-color-chip">
-			<div class="f-color-chip__name">RGE Red</div>
-			<div class="f-color-chip__color">#FE4742</div>
-		</div>
-		<div class="f-color-chip">
-			<div class="f-color-chip__name">White</div>
-			<div class="f-color-chip__color">#FFFFFF</div>
+	<div class="f-item-heading-group" data-f-toggle="labels">
+		<h2 class="f-item-heading">Checkbox</h2>
+		<div class="f-item-controls">
+			<span class="f-control f-icon" data-f-toggle-control="code" title="Toggle Code">
+				<svg>
+					<use xlink:href="#f-icon-code" />
+				</svg>
+			</span>
 		</div>
 	</div>
-<h3>Text &amp; Icons</h3>
-	<div class="f-color-chips">
-		<div class="f-color-chip">
-			<div class="f-color-chip__name">Dark Grey</div>
-			<div class="f-color-chip__color">#555555</div>
-		</div>
-		<div class="f-color-chip">
-			<div class="f-color-chip__name">Middle Grey</div>
-			<div class="f-color-chip__color">#9A9CA0</div>
-		</div>
-		<div class="f-color-chip">
-			<div class="f-color-chip__name">Light Grey</div>
-			<div class="f-color-chip__color">#D8D8D8</div>
-		</div>
-		<div class="f-color-chip">
-			<div class="f-color-chip__name">White</div>
-			<div class="f-color-chip__color">#FFFFFF</div>
-		</div>
+	<div class="f-item-notes" data-f-toggle="notes">
+		<p>These are notes associated with this <code>button</code> component.</p>
+
 	</div>
-<h3>Text Links</h3>
-		<div class="f-color-chips">
-			<div class="f-color-chip">
-				<div class="f-color-chip__name">Default</div>
-				<div class="f-color-chip__color">#FE4742</div>
-			</div>
-			<div class="f-color-chip">
-				<div class="f-color-chip__name">Hover</div>
-				<div class="f-color-chip__color">#FE4742</div>
-			</div>
-			<div class="f-color-chip">
-				<div class="f-color-chip__name">Active</div>
-				<div class="f-color-chip__color">#FE4742</div>
-			</div>
-		</div>
+	<div class="f-item-preview">
+	<label>
+	<input type="checkbox" /> Checkbox
+</label>
 
-
-<h2 class="headers-PatternLibrary">Typography</h2>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.</p>
-
-<div class="row-Red">
-<p class="text-White">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.</p>
+</div>
+<div class="f-item-code f-item-hidden" data-f-toggle="code">
+	<pre><code class="language-markup">&lt;label&gt;
+	&lt;input type=&quot;checkbox&quot; /&gt; Checkbox
+&lt;/label&gt;</code></pre>
 </div>
 
-<h1>Heading Level 1</h1>
-<h2>Heading Level 2</h2>
-<h3>Heading Level 3</h3>
-<h4>Heading Level 4</h4>
-<h5>Heading Level 5</h5>
-<h6>Heading Level 6</h6>
 
+</div>
+
+<!-- <pre class="language-markup"><code class="language-markup">&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/toolkit/styles/toolkit.css&quot;&gt;</code></pre>
+
+<pre class="language-markup"><code class="language-markup">&lt;script src=&quot;assets/toolkit/scripts/toolkit.js&quot;&gt;&lt;/script&gt;</code></pre> -->
 
 
 		</div>

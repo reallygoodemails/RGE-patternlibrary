@@ -7,14 +7,12 @@ h3 {
 	margin: .625em 0 .375em;
 	font-weight: 700;
     font-size: 1.25em;
-    line-height: 1.2;
 }
 
 h2 {
 	margin: .75em 0 .375em;
 	font-weight: 700;
     font-size: 1.75em;
-    line-height: 1.2;
 }
 
 a {
@@ -22,9 +20,21 @@ a {
 	color:#FE4742;
 }
 
-.headers-PatternLibrary{color:#FE4742;}
+p, body {
+    font-family: 'Roboto';
+    margin: 0;
+    line-height: 150%;
+}
 
-.title-PatternLibrary{color:#FE4742;margin:0;padding:0;}
+/*div p:last-of-type {
+    margin-bottom: 1.5rem;
+}*/
+
+
+
+.headers-PatternLibrary{color:#FE4742;display:inline-block;margin-top: 3.8rem;}
+
+.title-PatternLibrary{color:#FE4742;padding:0;line-height: 1;}
 
 .f-menu-active .f-menu {
     transform: translate(0, 0);
@@ -48,14 +58,14 @@ a {
     transition: all .35s;
 }
 
-p, body {
-    font-family: 'Roboto';
-    margin: 0;
-    line-height: 150%;
-}
+
 
 .text-White {
 	color: #FFFFFF;
+}
+
+.text-RGERed {
+    color: #FE4742;
 }
 
 .row-Red {
@@ -66,6 +76,15 @@ p, body {
 	display: block;
 }
 
+.row-RedOutline {
+    height: auto;
+    margin: 0 0 2rem;
+    padding: 1rem;
+    border: 2px solid #FE4742;
+    display: block;
+    width: 50%;
+}
+
 .f-color-chip {
     margin-bottom: 0em;
 }
@@ -73,6 +92,9 @@ p, body {
 .f-control-bar {
 	height: auto;
 	background-color: #FFFFFF;
+    padding: 1rem 0 0;
+    display: inline-block;
+    margin: 0 .5rem 0 0;
 /*	width: 100%;
 	position: fixed;*/
 }
@@ -89,7 +111,7 @@ p, body {
 
 .f-menu-notoggle {
     cursor: pointer;
-    vertical-align: middle;
+    /*vertical-align: middle;*/
 }
 
 .f-menu-toggle svg {
@@ -109,6 +131,17 @@ p, body {
 }
 
 .icon-Menu {
-	height: 2rem;
-	width: 2rem;
+	height: 3rem;
+	width: 3rem;
+    position: relative;
+    bottom: 15px;
+    display: inline-block;
+}
+
+.f-container {
+    padding: 0 2.5em;
+}
+
+.f-color-chips:last-of-type {
+    margin-bottom: 3rem;
 }

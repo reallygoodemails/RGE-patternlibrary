@@ -1,10 +1,29 @@
 
 body{font-family:sans-serif}
 
-h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif; color: #555555; line-height: 100%;}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; 
+    color: #555555; 
+    line-height: 100%;
+}
 
 h1, h2 {
     color:#FE4742;
+}
+
+h2 {
+    margin: .75em 0 .375em;
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+.banner-Image h1 {
+    font-size: 2.85rem;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 3.8rem 0 0 .5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
 }
 
 h3 {
@@ -13,10 +32,13 @@ h3 {
     font-size: 1.25em;
 }
 
-h2 {
-	margin: .75em 0 .375em;
-	font-weight: 700;
-    font-size: 1.75em;
+.row-RedOutline p {
+    color: #FE4742;
+}
+
+.row-RedOutline h3 {
+    color: #FE4742;
+    margin-top: 0;
 }
 
 a {
@@ -89,11 +111,12 @@ p, body {
 
 .row-RedOutline {
     height: auto;
-    margin: 0 0 2rem;
+    margin: 1rem 0 2rem;
     padding: 1rem;
-    border: 2px solid #FE4742;
+    border: 2px dashed #FE4742;
     display: block;
-    width: 50%;
+    /*width: 50%;*/
+    color: #FE4742;
 }
 
 .f-color-chip {
@@ -228,4 +251,5 @@ p, body {
     background-image: url("img/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 0 1rem;
 }

@@ -3,6 +3,10 @@ body{font-family:sans-serif}
 
 h1, h2, h3, h4, h5, h6 {font-family: 'Roboto', sans-serif; color: #555555; line-height: 100%;}
 
+h1, h2 {
+    color:#FE4742;
+}
+
 h3 {
 	margin: .625em 0 .375em;
 	font-weight: 700;
@@ -32,9 +36,16 @@ p, body {
 
 
 
-.headers-PatternLibrary{color:#FE4742;display:inline-block;margin-top: 3.8rem;}
+.headers-PatternLibrary {
+    display:inline-block;
+    margin-top: 3.8rem;
+}
 
-.title-PatternLibrary{color:#FE4742;padding:0;line-height: 1;}
+.title-PatternLibrary {
+    color:#FE4742;
+    padding:0;
+    line-height: 1;
+}
 
 .f-menu-active .f-menu {
     transform: translate(0, 0);
@@ -128,6 +139,27 @@ p, body {
     margin-bottom: -1px;
     height: inherit;
     width: inherit;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+.f-menu-notoggle {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
+}
+
+.f-menu-notoggle:hover svg {
+    -ms-transform: scale(1.15, 1.15); /* IE 9 */
+    -webkit-transform: scale(1.15, 1.15); /* Safari */
+    transform: scale(1.15, 1.15);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    -o-transition: all .35s;
+    transition: all .35s;
 }
 
 .icon-Menu {
@@ -144,4 +176,56 @@ p, body {
 
 .f-color-chips:last-of-type {
     margin-bottom: 3rem;
+}
+
+.f-item-heading {
+    /* margin-top: 0; */
+    /* margin-bottom: 0; */
+    display: inline-block;
+    /* vertical-align: middle; */
+    line-height: 1;
+    margin: .75em 0 .375em;
+    font-weight: 700;
+    font-size: 1.75em;
+}
+
+.f-item-heading-group {
+     margin-bottom: 0rem; 
+    vertical-align: middle;
+}
+
+.f-item-group {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+     padding-bottom: 0rem; 
+     border-bottom: 0px solid transparent; 
+}
+
+.f-menu .f-menu__heading {
+    padding-left: 1.5rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #FE4742 !important;
+}
+.f-menu a {
+    display: block;
+    padding: 0.33rem 2rem;
+    color: #555555 !important;
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.f-menu .f-menu__heading:hover {
+    padding-left: 1.5rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #FE4742 !important;
+}
+
+.banner-Image {
+    height: 120px;
+    background-image: url("img/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }

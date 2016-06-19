@@ -107,6 +107,15 @@ h1 {
     font-size: 2.25rem;
 }
 
+.banner-Image h1 {
+    font-size: 2.75rem;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 3.5rem 0 0 .5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
 h2 {
     margin: .75em 0 .375em;
     font-weight: 700;
@@ -120,23 +129,16 @@ h2 {
     font-size: 1.75rem;
 }
 
-.banner-Image h1 {
-    font-size: 2.75rem;
-    color: #FFFFFF;
-    display: inline-block;
-    margin: 3.5rem 0 0 .5rem;
-    letter-spacing: 1px;
-    font-weight: 700;
-}
-
 h3 {
 	margin: .625em 0 .375em;
 	font-weight: 700;
     font-size: 1.25em;
 }
 
-.row-RedOutline p {
-    color: #FE4742;
+.row-LightGrey h3 {
+    color: #5E687B;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .row-RedOutline h3 {
@@ -144,9 +146,29 @@ h3 {
     margin-top: 0;
 }
 
+h3.subsection-PatternLibrary {
+    margin-top: 2rem;
+}
+
+.heading-Stats {
+    color: #D8D8D8;
+    font-family: 'Robot', sans-serif;
+    font-size: 1rem;
+    margin: 0 0 0 2rem;
+    float: right;
+}
+
 a {
 	text-decoration: none;
 	color:#FE4742;
+}
+
+.row-RedOutline p {
+    color: #FE4742;
+}
+
+.row-LightGrey p {
+    color: #9A9CA0;
 }
 
 p, body {
@@ -188,22 +210,24 @@ p, body {
     transition: all .35s;
 }
 
-
-
-.text-White {
-	color: #FFFFFF;
-}
-
 .text-RGERed {
     color: #FE4742;
 }
 
-.row-Red {
+.row-LightGrey, .row-Red {
 	height: auto;
 	margin: 1rem 0;
 	padding: 1rem;
 	background-color: #FE4742;
 	display: block;
+}
+
+.row-LightGrey {
+    background-color: #F4F4F4;
+}
+
+.row-Red p {
+    color: #FFFFFF;
 }
 
 .row-RedOutline {

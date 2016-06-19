@@ -1,14 +1,21 @@
 
 body{font-family:sans-serif}
 
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif; 
-    color: #555555; 
+    color: #353941; 
     line-height: 100%;
 }
 
 h1, h2 {
     color:#FE4742;
+}
+
+h1 {
+    margin: .75rem 0 .375rem;
+    font-weight: 700;
+    font-size: 2.25rem;
 }
 
 h2 {
@@ -17,11 +24,18 @@ h2 {
     font-size: 1.75em;
 }
 
+.f-menu-notoggle h2 {
+    color:#FE4742;
+    padding:0;
+    line-height: 1;
+    font-size: 1.75rem;
+}
+
 .banner-Image h1 {
-    font-size: 2.85rem;
+    font-size: 2.75rem;
     color: #FFFFFF;
     display: inline-block;
-    margin: 3.8rem 0 0 .5rem;
+    margin: 3.5rem 0 0 .5rem;
     letter-spacing: 1px;
     font-weight: 700;
 }
@@ -61,12 +75,6 @@ p, body {
 .headers-PatternLibrary {
     display:inline-block;
     margin-top: 3.8rem;
-}
-
-.title-PatternLibrary {
-    color:#FE4742;
-    padding:0;
-    line-height: 1;
 }
 
 .f-menu-active .f-menu {
@@ -134,7 +142,7 @@ p, body {
 }
 
 .f-control-bar-alt {
-	padding: 1rem 0 1.2rem 1rem;
+	padding: 1rem 0 .75rem 0;
 	height: auto;
 }
 
@@ -233,7 +241,7 @@ p, body {
 .f-menu a {
     display: block;
     padding: 0.33rem 2rem;
-    color: #555555 !important;
+    color: #353941 !important;
     text-decoration: none;
     font-size: 0.875rem;
     line-height: 1.5;
@@ -252,4 +260,9 @@ p, body {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 1rem;
+}
+
+a.menu-Link {
+    padding: .65rem 0 0 1rem;
+    text-decoration: none !important;
 }

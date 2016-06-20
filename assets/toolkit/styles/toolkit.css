@@ -168,9 +168,18 @@ h4 {
     font-weight: 300;
 }
 
+h4.subsection-PatternLibrary {
+    padding: 1rem 0 0 0;
+    color: #9A9CA0;
+}
+
 .row-LightGrey h4 {
     color: #5E687B;
     text-transform: uppercase;
+}
+
+p {
+    max-width: 800px;
 }
 
 .heading-Stats {
@@ -194,7 +203,7 @@ a {
     color: #9A9CA0;
 }
 
-p, body {
+p{
     /*font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
     margin: 0;
     line-height: 150%;
@@ -437,7 +446,7 @@ blockquote {
     margin: 1rem 0 2.5rem 0;
 }
 
-xmp {
+/*xmp {
     font-family: "Source Code Pro", Consolas, "Lucida Console", Courier, monospace;
     max-width: none;
     padding: 0;
@@ -455,7 +464,7 @@ xmp {
     hyphens: none;
     white-space: normal;
     word-wrap: break-word;
-}
+}*/
 
 pre[class*="language-"] {
     background: #f7f7f7;

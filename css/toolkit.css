@@ -416,7 +416,7 @@ a.menu-Link {
 
 .banner-Image {
 	height: 104px;
-    background-image: url("img/banner.png");
+    background-image: url("../img/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0 1rem;

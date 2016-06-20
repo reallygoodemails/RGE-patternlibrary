@@ -476,6 +476,22 @@ a.menu-Link {
     word-wrap: break-word;
 }
 
+.font-Weight700 {
+    font-weight: 700;
+}
+
+.font-Weight400 {
+    font-weight: 400;
+}
+
+.font-Weight300 {
+    font-weight: 300;
+}
+
+.font-Weight700, .font-Weight400, .font-Weight300 {
+    font-size: 2rem;
+}
+
 /* /COMPLETELY NEW CSS */
 
 

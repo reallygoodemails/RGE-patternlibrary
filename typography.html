@@ -10,12 +10,16 @@
 
 	<link rel="stylesheet" href=".//assets/fabricator/styles/f.css">
 
+	<!-- prism styles -->
+	<link rel="stylesheet" href=".//assets/toolkit/styles/prism.css">
+	<!-- /prisms tyles -->
+
 	<!-- toolkit styles -->
 	<link rel="stylesheet" href=".//assets/toolkit/styles/toolkit.css">
 	<!-- /toolkit styles -->
 
 	<!-- custom fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 	<!-- /custom fonts -->
 
 	<!-- favicons -->
@@ -121,7 +125,13 @@
 					<a href="typography.html" class="f-menu__heading">Typography</a>
 					<ul>
 						<li>
-							<a href="pages/home.html" target="_blank">Home</a>
+							<a href="typography.html#typography-Roboto">Roboto</a>
+						</li>
+						<li>
+							<a href="typography.html#typography-Headings">Headings</a>
+						</li>
+						<li>
+							<a href="typography.html#typography-ParagraphText">Paragraph</a>
 						</li>
 					</ul>
 				</li>
@@ -200,41 +210,91 @@
 					</svg> 
 				</div>
 			</div> -->
-
+<main>
 <div class="row-RedOutline">
 <h3>We Kern A Lot</h3>
 <p class="text-RGERed">We sure loves words. Some people say we love them too much but they are just jealous of our wordsmithness. Is that actually a word? Either way, typography is the little black dress of web design. It goes with everything and it looks soooo noooooice.</p>
 </div>
 
-<section>
+<section id="typography-Roboto">
+<h3 class="subsection-PatternLibrary">About Roboto</h3>
+<p>Our site uses the excellent Roboto typeface by Google. It's a versatile typeface that handles itself well as both block text and headers. Roboto was born from the need for a sans serif typeface built intentionally for digital medium. Google has this to say about Roboto:</p>
+<p class="quote">"Roboto has a dual nature. It has a mechanical skeleton and the forms are largely geometric. At the same time, the font features friendly and open curves. While some grotesks distort their letterforms to force a rigid rhythm, Roboto doesn’t compromise, allowing letters to be settled into their natural width. This makes for a more natural reading rhythm more commonly found in humanist and serif types."</p>
+<p>You can find Roboto for free on <a href="https://fonts.google.com/specimen/Roboto?query=Roboto">Google Fonts</a>.</p>
+<br>
+<p>To get things going we set up our base fonts, color, and line height.</p>
+<blockquote>
+	<pre class="line-numbers language-css"><code>
+	body {
+	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #353941; 
+	line-height: 100%;
+	}
+	</code></pre>
+</blockquote>
+</section>
+
+<section id="typography-Headings">
 <h3 class="subsection-PatternLibrary">Headings</h3>
 <h1>Heading Level 1</h1>
 <blockquote>
-  <pre><code>{font-family: 'Roboto', sans-serif; line-height: 100%;font-size:2.25rem, font-weight: 700, margin: .75rem 0 .375rem, color: #FE4742;}</code></pre>
+  <pre class="line-numbers language-css"><code>h1 {
+  font-size:2.25rem;
+  font-weight: 700; 
+  margin: .75rem 0 .375rem;
+  }</code></pre>
 </blockquote>
+
 <h2>Heading Level 2</h2>
 <blockquote>
-  <pre><code>{font-size:1.75rem, font-weight: 700, margin: .75rem 0 .375rem, color: #FE4742;}</code></pre>
+  <pre class="line-numbers language-css"><code>
+  h2 {
+  font-size:1.75rem;
+  font-weight: 700; 
+  margin: .75rem 0 .375rem;
+  }</code></pre>
 </blockquote>
+
 <h3>Heading Level 3</h3>
 <blockquote>
-  <pre><code>{font-size:1.25rem, font-weight: 700, margin: .625rem 0 .375rem, color: #353941;}</code></pre>
+  <pre class="line-numbers language-css"><code>
+  h3 {
+  font-size:1.25rem;
+  font-weight: 400; 
+  margin: .625rem 0 .375rem;
+}</code></pre>
+</blockquote>
+
+<h4>Heading Level 4</h4>
+<blockquote>
+  <pre class="line-numbers language-css"><code>
+  h4 {
+  font-size:1.25rem;
+  font-weight: 300; 
+  margin: .625rem 0 .375rem;
+  }</code></pre>
 </blockquote>
 </section>
-<!-- <h4>Heading Level 4</h4>
-<h5>Heading Level 5</h5>
-<h6>Heading Level 6</h6> -->
-<section>
+
+<section id="typography-ParagraphText">
 <h3 class="subsection-PatternLibrary"> Paragraph Text </h3>
 <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis. </p>
 <blockquote>
-  <pre><code><xmp><p> ... </p></xmp></code></pre>
+  <pre class="line-numbers language-html">
+  <code>
+  &lt;p>  ...  &lt;/p>
+  </code></pre>
 </blockquote>
+
 <div class="row-Red">
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.</p>
 </div>
 <blockquote>
-  <pre><code><xmp><div class="row-Red"><p> ... </p></div></xmp></code></pre>
+  <pre class="line-numbers language-html"><code>
+  &lt;div class="row-Red">
+  &lt;p>  ...  &lt;/p>
+  &lt;/div>
+  </code></pre>
 </blockquote>
 
 <div class="row-LightGrey">
@@ -242,7 +302,12 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam enim sunt sapiente molestias, sed dicta inventore consectetur beatae asperiores, aliquid laboriosam animi, praesentium repudiandae et, quam saepe sint cupiditate reiciendis.</p>
 </div>
 <blockquote>
-  <pre><code><xmp><div class="row-LightGrey"><h4> ... </h4><p> ... </p></div></xmp></code></pre>
+  <pre class="line-numbers language-html"><code>
+  &lt;div class="row-LightGrey">
+  &lt;h4> ... &lt;/h4>
+  &lt;p> ... &lt;/p>
+  &lt;/div>
+  </code></pre>
 </blockquote>
 </section>
 
@@ -253,6 +318,23 @@
 	<!-- toolkit scripts -->
 	<script src=".//assets/toolkit/scripts/toolkit.js"></script>
 	<!-- /toolkit scripts -->
-
+	<!-- prism scripts -->
+	<script src=".//assets/toolkit/scripts/prism.js"></script>
+	<!-- /prism scripts -->
+	<script type="text/javascript">
+	// Optional
+	Prism.plugins.NormalizeWhitespace.setDefaults({
+		'remove-trailing': true,
+		'remove-indent': true,
+		'left-trim': true,
+		'right-trim': true,
+		'break-lines': 80,
+		'indent': 1,
+		'remove-initial-line-feed': false,
+		'tabs-to-spaces': 4,
+		'spaces-to-tabs': 4
+	});
+	</script>
+</main>
 </body>
 </html>

@@ -372,6 +372,31 @@
 		'spaces-to-tabs': 4
 	});
 	</script>
+
+	<!-- calling jquery for smooth scrolling -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<!-- /calling jquery for smooth scrolling -->
+
+	<!-- calling smooth scrolling function -->
+	<script>
+	$(function() {
+	  $('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html, body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+	<!-- /calling smooth scrolling function -->
+
+
 </main>
 </body>
 </html>

@@ -228,7 +228,7 @@
 <span class="font-Weight400">400</span>
 <span class="font-Weight300">300</span>
 <h4 class="subsection-PatternLibrary">Laying the groundwork</h4>
-<p>To get things going we set up our base fonts, color, and line height.</p>
+<p>To get things going we set up our base fonts, color, and baseline. The baseline is established by default font size and default line-height. In this case the default font size is 16px and the default line height is 1.5rem or 24px. To achieve visual harmony, all text and elements should align to this 1.5rem horizontal grid.</p>
 <blockquote>
 	<pre class="line-numbers language-html"><code>
 	&lt;head>
@@ -238,10 +238,14 @@
 </blockquote>
 <blockquote>
 	<pre class="line-numbers language-css"><code>
+	html {
+	font-size: 16px;
+	}
+
 	body {
 	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	color: #353941; 
-	line-height: 100%;
+	line-height: 1.5rem;
 	}
 	</code></pre>
 </blockquote>

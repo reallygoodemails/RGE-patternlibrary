@@ -97,13 +97,17 @@ For: Really Good Email's Pattern Library (www.reallygoodemails.com)
 
 /* ELEMENT LEVEL STYLES */
 
+html {
+    font-size: 16px;
+}
+
 body {
 	/* set back to display: block; at end of file, this keeps page from loading piecemeal */
     display: none;
     /*setting base font styles */
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #353941; 
-    line-height: 100%;
+    line-height: 1.5rem;
 }
 
 main {

@@ -99,6 +99,7 @@ For: Really Good Email's Pattern Library (www.reallygoodemails.com)
 
 html {
     font-size: 16px;
+    vertical-align: baseline;
 }
 
 body {
@@ -107,7 +108,7 @@ body {
     /*setting base font styles */
     font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #353941; 
-    line-height: 1.5rem;
+    line-height: 2rem;
 }
 
 main {
@@ -133,7 +134,7 @@ h1 {
 	font-size: 2.75rem;
 	color: #FFFFFF;
 	display: inline-block;
-	margin: 3.4rem 0 0 0rem;
+	margin: 3rem 0 0 0rem;
 	letter-spacing: 1px;
 	font-weight: 700;
 }
@@ -321,9 +322,11 @@ code {
 .f-menu-toggle svg {
     display: block;
     float: left;
-    margin-bottom: -1px;
+    margin-bottom: 0;
     height: inherit;
     width: inherit;
+    position: relative;
+    top: 2px;
 }
 
 .f-menu-notoggle svg {
@@ -356,10 +359,8 @@ code {
 }
 
 .icon-Menu {
-	height: 3rem;
-	width: 3rem;
-    position: relative;
-    bottom: 14px;
+	height: 2rem;
+	width: 2rem;
     display: inline-block;
 }
 
@@ -417,10 +418,15 @@ code {
     color: #ff4c44 !important;
 }
 
+.f-menu-toggle {
+    cursor: pointer;
+    vertical-align: inherit;
+}
+
 a.menu-Link {
-	padding: 0 0 0 1rem;
+    padding: 0 0 0 1rem;
     text-decoration: none !important;
-    height: 100px;
+    height: 6rem;
     border-bottom: 4px solid #ff4c44;
 }
 
@@ -430,7 +436,7 @@ a.menu-Link {
 /* COMPLETELY NEW CSS */
 
 .banner-Image {
-	height: 104px;
+	height: 6rem;
     background-image: url("../img/banner.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -527,4 +533,11 @@ a.menu-Link {
 
 body {
     display: block;
+}
+
+
+* {
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box; /* Firefox, other Gecko */
+box-sizing: border-box; /* Opera/IE 8+ */
 }

@@ -160,14 +160,20 @@ h3 {
     margin-top: 0;
 }
 
-h3.subsection-PatternLibrary {
-    padding: 1rem 0;
+h2.subsection-PatternLibrary, h4.subsection-PatternLibrary {
+    padding: 1rem 0 .75rem 0;
     color: #9A9CA0;
     border-bottom: 2px solid #D8D8D8;
-    /* line-height: 40%; */
     color: #9A9CA0;
-    padding-bottom: .75rem;
     margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+h4.subsection-PatternLibrary {
+    font-size: 1rem;
+    font-weight: 300;
+    border-bottom: 0px solid transparent;
+    margin-bottom: 1rem;
 }
 
 h4 {
@@ -454,6 +460,11 @@ a.menu-Link {
 }
 
 .row-Red {
+    background-color: #FF4C44;
+    color: #FFFFFF;
+}
+
+.row-LightGreyOutline {
     border: 2px solid #9A9CA0;
     color: #9A9CA0;
 }

@@ -403,7 +403,7 @@ code {
     padding: 0 0 0 4rem;
     color: #353941 !important;
     text-decoration: none;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 300;
 }
@@ -411,8 +411,12 @@ code {
 .f-menu .f-menu__heading:hover {
     padding-left: 3rem;
     font-weight: 700;
-    font-size: 1.75rem;
     color: #ff4c44 !important;
+}
+
+.f-menu > ul {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .f-menu-toggle {

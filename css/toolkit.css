@@ -125,13 +125,13 @@ section {
 }
 
 h1 {
-    margin: 1.5rem 0 .75rem;
+    margin: 2.75rem 0 1rem;
     font-weight: 700;
-    font-size: 4.5rem;
+    font-size: 3rem;
 }
 
 .banner-Image h1 {
-	font-size: 6rem;
+	font-size: 5.5rem;
 	color: #FFFFFF;
 	display: inline-block;
 	margin: 6rem 0 0 0rem;
@@ -140,9 +140,9 @@ h1 {
 }
 
 h2 {
-    margin: 2rem 0 1rem;
+    margin: 2.5rem 0 1rem;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 2.75rem
 }
 
 .f-menu-notoggle h2 {
@@ -154,11 +154,10 @@ h2 {
 }
 
 h3 {
-	margin: 1.25rem 0 .75rem;
-	font-weight: 700;
-    font-size: 3rem;
+    margin: 2.25rem 0 1rem;
+    font-size: 2.25rem;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 400
 }
 
 .row-RedOutline h3 {
@@ -167,7 +166,7 @@ h3 {
 }
 
 h2.subsection-PatternLibrary, h4.subsection-PatternLibrary {
-    padding: 4.5rem 0 1.25rem 0;
+    padding: 4.5rem 0 1rem 0;
     color: #9A9CA0;
     border-bottom: 2px solid #D8D8D8;
     color: #9A9CA0;
@@ -176,23 +175,20 @@ h2.subsection-PatternLibrary, h4.subsection-PatternLibrary {
 }
 
 h4.subsection-PatternLibrary {
-    font-size: 2rem;
-    font-weight: 300;
+    /* font-size: 2rem; */
+    /* font-weight: 300; */
     border-bottom: 0px solid transparent;
     margin-bottom: 2rem;
+    padding: 6rem 0 0 0;
+    color: #9A9CA0;
+    /* margin: 1.5rem 0 1rem; */
 }
 
 h4 {
-    margin: 1.25rem 0 .75rem;
-    font-weight: 700;
-    font-size: 1rem;
+    margin: 1.5rem 0 1rem;
+    font-size: 1.75rem;
     letter-spacing: 1px;
     font-weight: 300;
-}
-
-h4.subsection-PatternLibrary {
-    padding: 6rem 0 0 0;
-    color: #9A9CA0;
 }
 
 .row-LightGrey h4 {
@@ -438,6 +434,22 @@ a.menu-Link {
 /* /CHANGES TO FABRICATOR CLASSES */
 
 
+/* CHANGES TO PRISM CLASSES */
+pre.line-numbers {
+    position: relative;
+    padding-left: 4em;
+    counter-reset: linenumber;
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    line-height: 2rem;
+    font-size: 1.25rem;
+    margin: 1em 0;
+}
+
+/* /CHANGES TO PRISM CLASSES */
+
+
 /* COMPLETELY NEW CSS */
 
 .banner-Image {
@@ -524,13 +536,15 @@ a.menu-Link {
 
 .font-Weight700, .font-Weight400, .font-Weight300 {
     font-size: 4rem;
-    line-height: 100%;
+    /* line-height: 4rem; */
+    position: relative;
+    bottom: .5rem;
     padding: 0 2rem 0 0;
 }
 
 .text-UpperCase {
     font-style: italic;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
     background-color: #FF4C44;
     padding: 0 1rem;

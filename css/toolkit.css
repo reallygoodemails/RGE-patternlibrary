@@ -275,6 +275,7 @@ code {
     -moz-transition: all .35s;
     -o-transition: all .35s;
     transition: all .35s;
+    width: 28rem;
 }
 
 .f-menu > ul > li {

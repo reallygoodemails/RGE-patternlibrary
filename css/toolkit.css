@@ -184,7 +184,7 @@ h4 {
     margin: 1.5rem 0 1rem;
     font-size: 1.75rem;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .row-LightGrey h4 {
@@ -197,6 +197,7 @@ p {
     max-width: 800px;
     margin: 0;
     font-size: 2rem;
+    font-family: 'Open Sans', 'Roboto', Arial, sans-serif;
 }
 
 .heading-Stats {
@@ -548,6 +549,7 @@ code[class*="language-"], pre[class*="language-"] {
     color: white;
     background-color: #FF4C44;
     padding: 0 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* /COMPLETELY NEW CSS */

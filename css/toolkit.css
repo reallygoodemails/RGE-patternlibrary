@@ -310,6 +310,11 @@ code {
     margin-left: 1rem;
 }
 
+.f-control svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 .f-controls .f-control.f-active {
     box-shadow: inset 0 0 0 0 transparent;
 }
@@ -335,8 +340,8 @@ code {
 	display: block;
     float: left;
     margin-bottom: -1px;
-    height: inherit;
-    width: inherit;
+    height: 100%;
+    width: 100%;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     -o-transition: all .35s;

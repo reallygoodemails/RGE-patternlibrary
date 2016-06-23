@@ -259,7 +259,7 @@ code {
 /* CHANGES TO FABRICATOR CLASSES */
 
 .f-menu {
-    width: 28rem;
+    width: 14rem;
     height: 100%;
     z-index: 1;
     background-color: white;

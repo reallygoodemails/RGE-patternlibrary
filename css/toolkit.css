@@ -259,13 +259,14 @@ code {
 /* CHANGES TO FABRICATOR CLASSES */
 
 .f-menu {
-    width: 14rem;
+    width: 28rem;
     height: 100%;
     z-index: 1;
     background-color: white;
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    transform: translate(-28rem, 0);
 }
 
 .f-menu-active .f-menu {

@@ -124,10 +124,14 @@ section {
     display: block;
 }
 
+h1, h2, h3, h4 {
+    text-rendering: optimizeLegibility; 
+}
+
 h1 {
-    margin: 3.75rem 0 1rem;
+    margin: 3rem 0 1rem;
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .banner-Image h1 {
@@ -140,9 +144,9 @@ h1 {
 }
 
 h2 {
-    margin: 3rem 0 1rem;
+    margin: 2.5rem 0 1rem 0;
     font-weight: 700;
-    font-size: 2.75rem
+    font-size: 4rem;
 }
 
 .f-menu-notoggle h2 {
@@ -154,8 +158,8 @@ h2 {
 }
 
 h3 {
-    margin: 2.25rem 0 1rem;
-    font-size: 2.25rem;
+    margin: 2.5rem 0 1rem;
+    font-size: 3rem;
     letter-spacing: 1px;
     font-weight: 400;
 }
@@ -166,7 +170,7 @@ h3 {
 }
 
 h2.subsection-PatternLibrary {
-    padding: 4.75rem 0 1rem 0;
+    padding: 3.5rem 0 1rem 0;
     color: #9A9CA0;
     border-bottom: 2px solid #D8D8D8;
     color: #9A9CA0;
@@ -175,14 +179,14 @@ h2.subsection-PatternLibrary {
 }
 
 h4.subsection-PatternLibrary {
-    border-bottom: 0px solid transparent;
-    padding: 5.75rem 0 0 0;
+border-bottom: 0px solid transparent;
+    padding: 5rem 0 0 0;
     color: #9A9CA0;
 }
 
 h4 {
-    margin: 1.5rem 0 1rem;
-    font-size: 1.75rem;
+    margin: 2rem 0 .85rem;
+    font-size: 2rem;
     letter-spacing: 1px;
     font-weight: 400;
 }
